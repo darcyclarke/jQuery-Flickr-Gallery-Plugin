@@ -3,11 +3,16 @@
 @author Darcy Clarke (http://darcyclarke.me)
 @version 1.0
  
+ Gets and embeds a flickr gallery from a url
  ## Example Use
  
  ```javascript
- $('.gallery').flickrGallery(); // Default
- $('.gallery').flickrGallery({ url : 'http://www.flickr.com/photos/aenimathirdeye/sets/72157603619715480/', height : 500, width : 500 }); // All options set
+$('.gallery').flickrGallery({ 
+    url : 'http://www.flickr.com/photos/aenimathirdeye/sets/72157603619715480/',
+    height : 500, 
+    width : 500 
+}); 
+// All options set
 ```
 
  ## License
